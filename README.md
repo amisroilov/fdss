@@ -9,7 +9,6 @@ FDSH
 ## Contributors
 
 **Thank you to our contributors!**
-FDSH would be nothing without you guys. Thanks for your constant help and bug-fixing, and we hope to see your faces all the time :)
 
 <a href="https://github.com/amisroilov/fdsh/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=amisroilov/fdsh" width="5%"/>
@@ -26,3 +25,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 FDSH is licensed under the [MIT License.](LICENSE)
+
