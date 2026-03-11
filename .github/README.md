@@ -1,7 +1,9 @@
 FDSH
 =======
 
-**Fast Dynamic Site Hoster** is a tool I made because I was annoyed of slow site hosting. Good for *testing* and *quick demos*.
+**Fast Dynamic Site Hoster** is a tool I made because I was annoyed of slow site hosting. I just wanted to test out my site!
+
+Good for testing and quick demos.
 
 -------
 
