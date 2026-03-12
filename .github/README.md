@@ -1,10 +1,10 @@
-# FDSH  
-![License](https://img.shields.io/github/license/amisroilov/fdsh)
+# FDSS
+![License](https://img.shields.io/github/license/amisroilov/fdss)
 ![Rust](https://img.shields.io/badge/language-rust-orange)
-![GitHub stars](https://img.shields.io/github/stars/amisroilov/fdsh)
-![GitHub issues](https://img.shields.io/github/issues/amisroilov/fdsh)
+![GitHub stars](https://img.shields.io/github/stars/amisroilov/fdss)
+![GitHub issues](https://img.shields.io/github/issues/amisroilov/fdss)
 
-**Fast Dynamic Site Hoster** is a tool I made because I was annoyed by slow site hosting - I just wanted a quick way to test my site.
+**Fast Dynamic Site Server** is a tool I made because I was annoyed by slow site hosting - I just wanted a quick way to test my site.
 
 Good for testing and quick demos.
 
@@ -14,7 +14,7 @@ Good for testing and quick demos.
 
 - [Quick Start](#quick-start)
 - [Installation](#installation)
-- [Using FDSH](#using-fdsh)
+- [Using FDSS](#using-fdss)
 - [Contributing](#how-to-contribute)
 - [License](#license)
 
@@ -33,7 +33,7 @@ Then open:
 ## Installation
 
 **Prerequisites**: 
-  - Since FDSH is written in Rust, you will *need* Rust and Cargo. They can be installed from https://rust-lang.org/learn/get-started.
+  - Since FDSS is written in Rust, you will *need* Rust and Cargo. They can be installed from https://rust-lang.org/learn/get-started.
   - Git. You can install Git from https://git-scm.com.
 
 ### Building from source :
@@ -43,18 +43,18 @@ Then open:
 
   Open the terminal (after making sure you have the prerequisites installed) and run this command :
   ```bash
-  git clone https://github.com/amisroilov/fdsh
-  cd fdsh
+  git clone https://github.com/amisroilov/fdss
+  cd fdss
   cargo install --path .
   ```
-  See that `--path` flag? This installs the executable to Cargo's binary directory (usually ~/.cargo/bin), which is typically already included in your PATH. This lets you run `fdsh` from anywhere,
+  See that `--path` flag? This installs the executable to Cargo's binary directory (usually ~/.cargo/bin), which is typically already included in your PATH. This lets you run `fdss` from anywhere,
   and BAM! You're done installing.  The next step...
 
 
-## Using FDSH
+## Using FDSS
 
-Navigate to the directory containing your site (e.g. `cd C:\Users\Me\MyCoolProject`), then run `fdsh`. 
-FDSH will serve the files in that directory at the given port (defaults to 8080).
+Navigate to the directory containing your site (e.g. `cd C:\Users\Me\MyCoolProject`), then run `fdss`. 
+FDSS will serve the files in that directory at the given port (defaults to 8080).
 You can also run `fdsh ./mydirectory` to serve the given directory.
 
 **Flags**:
@@ -64,8 +64,8 @@ You can also run `fdsh ./mydirectory` to serve the given directory.
 
 **Thank you to our contributors!**
 
-<a href="https://github.com/amisroilov/fdsh/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=amisroilov/fdsh" width="5%"/>
+<a href="https://github.com/amisroilov/fdss/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=amisroilov/fdss" width="5%"/>
 </a>
 
 ## How to contribute
