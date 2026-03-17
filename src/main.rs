@@ -57,7 +57,7 @@ async fn handle(
         }
         Err(_) => Ok(Response::builder()
             .status(StatusCode::NOT_FOUND)
-            .body(Body::from("<h1>404 - File Not Found</h1>"))
+            .body(Body::from("<h1>404 - File not found</h1>"))
             .unwrap()),
     }
 }
@@ -65,7 +65,7 @@ async fn handle(
 async fn main() {
     let args = Args::parse();
 
-    println!("FDSH running at http://localhost:{}", args.port);
+    println!("FDSS running at http://localhost:{}", args.port);
     println!("Serving directory: {}", args.dir);
 
     let addr = ([127, 0, 0, 1], args.port).into();
