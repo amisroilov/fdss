@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/amisroilov/fdss)
 [![Latest release](https://img.shields.io/badge/releases-latest-green)](https://github.com/amisroilov/fdss/releases/latest)
 
-**Fast Dynamic Site Server** is a tool I made because I was annoyed by slow site hosting - I just wanted a quick way to test my site.
+**Fast Dynamic Site Server** is a CLI tool I made because I was annoyed by slow site hosting - I just wanted a quick way to test my site.
 
 Good for testing and quick demos.
 
